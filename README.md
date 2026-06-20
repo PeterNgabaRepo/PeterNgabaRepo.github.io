@@ -1,14 +1,14 @@
-# Peter Ngaba Portfolio Site Draft
+# Peter Ngaba Portfolio Site
 
-Static GitHub Pages-ready portfolio draft.
+Static GitHub Pages portfolio site.
 
 ## Local Preview
 
 Open `index.html` in a browser, or serve the folder with any static file server.
 
-## Publishing Gate
+## Public Content Gate
 
-Do not publish until:
+Do not publish additional content until:
 
 - Featured project links are reviewed and approved.
 - Sensitive/private projects are excluded or redacted.
