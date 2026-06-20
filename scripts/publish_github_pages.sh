@@ -48,4 +48,6 @@ else
 fi
 
 gh repo view "${OWNER}/${REPO}" --json nameWithOwner,visibility,url,defaultBranchRef,isPrivate
+cd "${WORKSPACE_ROOT}"
+python3 portfolio_audit/scripts/verify_site_publication.py --after-publication --write-status
 echo "Expected Pages URL: https://${OWNER}.github.io/"
