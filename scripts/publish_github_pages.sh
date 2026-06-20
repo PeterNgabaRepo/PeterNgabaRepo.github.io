@@ -20,6 +20,7 @@ cd "${WORKSPACE_ROOT}"
 python3 portfolio_audit/scripts/validate_portfolio_site.py
 python3 portfolio_audit/scripts/validate_publication_readiness.py
 python3 portfolio_audit/scripts/validate_public_safety.py
+gh auth status
 
 cd "${SITE_DIR}"
 if [[ -n "$(git status --short)" ]]; then
